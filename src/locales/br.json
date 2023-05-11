@@ -1,0 +1,16 @@
+{
+    "search": "Buscar",
+    "Hero": "Herói",
+    "Comics": "HQs",	
+    "Series": "Séries",
+    "pagination": "Página {atual} de {total}",
+    "loading": "Carregando...",
+    "toast.loading": "Carregando dados...",
+    "toast.success": "Carregado com sucesso!",
+    "toast.dataError": "Erro! Mensagem:",
+    "home.ErrorOccured": "Sem resultados ou um erro aconteceu..",
+    "home.search": "Você procurou por...",
+    "home.TitleMessage" : "Heróis da Marvel na palma da sua mão",
+    "home.SubtitleMessage" : "Ache seus heróis e descubra suas histórias",
+    "details.collectionNotfound": "  Erro, {collectionType} não encontradas" 
+}

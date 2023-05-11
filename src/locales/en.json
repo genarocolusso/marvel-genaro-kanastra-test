@@ -1,0 +1,16 @@
+{
+    "search": "Search",
+    "Hero": "Hero",
+    "Comics": "Comics",	
+    "Series": "Series",
+    "pagination": "Page {atual} of {total}",
+    "loading": "Loading...",
+    "toast.loading": "Loading data...",
+    "toast.success": "Successfully loaded!",
+    "toast.dataError": "Error! Message:  ",
+    "home.ErrorOccured": "No results found or an Error occurred",
+    "home.search": "You searched for...",
+    "home.TitleMessage" : "Marvel Heroes at the palm of your hand",
+    "home.SubtitleMessage" : "Search for your favorite heroes and discover its stories",
+    "details.collectionNotfound": "  Error, {collectionType} not found" 
+}
