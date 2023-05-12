@@ -2,11 +2,11 @@
 
 Developed using React, Typescript, styled-components, useQuery, react Intl, gsap + Vite
 
-#### :tw-2b50: Figma file I made before start coding
+#### 🎨 Figma file I made before start coding
 
 [check it out here](https://www.figma.com/file/8PmgxpTN3zdYcykNjvRxge/KanastraMarvelGenaro?type=design&node-id=0%3A1&t=RHFaQdae5xvo3BUr-1 "check it out here")
 
-#### :tw-2b50: How to run
+#### 🖥 How to run
 
 You must create a .env.local and create the following variables:
 
