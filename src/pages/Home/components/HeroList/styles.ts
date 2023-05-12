@@ -72,6 +72,11 @@ export const PaginationWrapper = styled.div`
 display: flex;
 justify-content: flex-end;
 margin: 1.5rem;
+@media only screen and (max-width: 768px) {
+    
+justify-content: center;
+    
+  }
 `;
 // skeleton 
 
