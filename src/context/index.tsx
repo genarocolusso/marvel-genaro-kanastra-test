@@ -84,7 +84,7 @@ const MarvelProvider = ({ children }: contextProviderProps) => {
 
       setPagination(calcPages);
 
-      const heroList = data?.data?.results || [];
+      const heroList = data?.data?.results;
       const computedHeroList: IHero[] = heroList
         ? heroList.map((hero: any) => {
             const imageThumb =

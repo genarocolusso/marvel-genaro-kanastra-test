@@ -22,15 +22,34 @@ img{
     height: 227px; 
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1250px) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
   @media only screen and (max-width: 800px) {
     grid-template-columns: 1fr 1fr;
     
   }
+  @media only screen and (max-width: 508px) {
+    grid-template-columns: 1fr ; 
+ 
+  }
 `;
-
+export const HeroCollectionItem = styled.div` 
+    align-items: center;
+    justify-content: center; 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  @media only screen and (min-width: 1250px) {
+    align-items: flex-start;
+    justify-content: center; 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  } 
+    
+   
+  `;
 export const CollectionTitle = styled.div`
 
 display: flex;

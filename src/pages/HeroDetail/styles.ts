@@ -67,9 +67,12 @@ border-radius: 12px;
 `;
 
 export const HeroDataCharts = styled.div`
-display: grid;
-grid-template-columns: 1fr 1fr; 
+display: grid; 
 align-items: center;
 justify-content: space-between;
 gap: 1rem;
+grid-template-columns: 1fr; 
+@media only screen and (min-width: 750px) {
+grid-template-columns: 1fr 1fr; 
+}
 `;

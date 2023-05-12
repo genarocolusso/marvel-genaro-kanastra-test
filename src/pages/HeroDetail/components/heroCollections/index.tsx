@@ -74,10 +74,10 @@ export const HeroCollections = (HeroCollectionParams: CollectionParams) => {
         </S.CollectionTitle>
         <S.CollectionGrid>
           {collections.map((collection: Icollection) => (
-            <div className="square" key={collection.id}>
+            <S.HeroCollectionItem className="square" key={collection.id}>
               <img src={collection.image} alt={collection.title} />
               <div> {collection.title}</div>
-            </div>
+            </S.HeroCollectionItem>
           ))}
         </S.CollectionGrid>
       </S.Container>
