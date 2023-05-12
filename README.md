@@ -11,7 +11,7 @@ Developed using React, Typescript, styled-components, useQuery, react Intl, gsap
 You must create a .env.local and create the following variables:
 
 ```javascript
-VITE_MARVEL_API_BASEURL = "gateway.marvel.com/v1/public";
+VITE_MARVEL_API_BASEURL = "http://gateway.marvel.com/v1/public";
 VITE_MARVEL_API_PUBLIC_KEY = " ";
 VITE_MARVEL_API_PRIVATE_KEY = " ";
 ```
